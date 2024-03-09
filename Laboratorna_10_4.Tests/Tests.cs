@@ -16,7 +16,7 @@ public class Tests
     [Test]
     public void Write()
     {
-        string fileName = "test_matrix.txt";
+        string fileName = "matrix.txt";
         int[,] matrix = {
             {1, 2, 3},
             {4, 5, 6},

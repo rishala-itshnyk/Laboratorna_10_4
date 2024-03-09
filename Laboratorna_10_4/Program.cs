@@ -31,10 +31,10 @@ public class Program
 
     static int[,] Read()
     {
-        Console.WriteLine("Введіть кількість рядків матриці:");
+        Console.WriteLine("Введіть к-сть рядків матриці:");
         int n = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Введіть кількість стовпців матриці:");
+        Console.WriteLine("Введіть к-сть стовпців матриці:");
         int m = int.Parse(Console.ReadLine());
 
         int[,] matrix = new int[n, m];
